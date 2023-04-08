@@ -120,7 +120,7 @@ class RadioTest {
     @Test
     public void setVolumeFive() {
         Radio radio = new Radio();
-        radio.setVolume(101);
+        radio.setVolume(102);
         int expected = 0;
         int actual = radio.getVolume();
         Assertions.assertEquals(expected, actual);
